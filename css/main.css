@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: "TT Lakes", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #1b1c21;
+  }
+  
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  h2 {
+    margin: 0;
+  }
+  
+  button {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+  }
+  /* __________________________________ */
+
+  .swiper-button {
+    background: url('/img/go.svg') no-repeat;
+    width: 40px;
+    height: 40px;
+  }
