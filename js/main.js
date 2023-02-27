@@ -57,3 +57,5 @@ buttonSnowBrands.addEventListener("click", function () {
     buttonSnowBrands.textContent = "Показать все";
   }
 });
+
+destroySwiper();
