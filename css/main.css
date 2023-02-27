@@ -155,7 +155,7 @@ button {
     padding-left: 32px;
     background-color: transparent;
     border: 0;
-    background: url("/img/icon-arrow.svg") no-repeat 8px 50%;
+    background: url("../img/icon-arrow.svg") no-repeat 8px 50%;
     font-size: 16px;
     font-family: inherit;
     font-weight: 500;
@@ -169,7 +169,7 @@ button {
   }
 
   .spoiler--active {
-    background: url("/img/icon-arrow-active.svg") no-repeat 8px 50%;
+    background: url("../img/icon-arrow-active.svg") no-repeat 8px 50%;
   }
 
   .brands__list--snow-all {
