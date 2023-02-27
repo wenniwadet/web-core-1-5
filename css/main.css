@@ -160,7 +160,6 @@ button {
     font-family: inherit;
     font-weight: 500;
     line-height: 24px;
-    border: 1px solid black;
   }
 
   .spoiler:hover {
