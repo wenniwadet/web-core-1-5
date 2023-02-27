@@ -3,6 +3,7 @@ const swiper = new Swiper(".swiper", {
   loop: false,
   slidesPerView: 1.25,
   spaceBetween: 16,
+  centerInsufficientSlides: true,
 
   breakpoints: {
     360: {
