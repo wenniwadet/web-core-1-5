@@ -37,10 +37,16 @@ let pagination = document.querySelector(".swiper-pagination");
 let buttonSnowBrands = document.querySelector(".brands__spoiler");
 let brandsList = document.querySelector(".brands__list");
 
-if (document.documentElement.clientWidth >= 768) {
-  swiper.destroy();
-  pagination.classList.add("hidden");
+function destroySwiper() {
+  if (document.documentElement.clientWidth >= 768) {
+    swiper.destroy();
+    pagination.classList.add("hidden");
+  }
 }
+
+window.addEventListener("resize", function () {
+  destroySwiper();
+});
 
 buttonSnowBrands.addEventListener("click", function () {
   brandsList.classList.toggle("brands__list--snow-all");
